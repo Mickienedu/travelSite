@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL WEB</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.min.css"> -->
+
+</head>
+
+<body>
+    <div class="overall-container">
+        <div class="header-container">
+            <div class="logo-header">
+                <img src="image/logo-rename.png" alt="">
+            </div>
+           
+           <section>
+            <ul id="sidemenu">
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Flights</a></li>
+                <li><a href="#">Bookings</a></li>
+                <li><a href="#">Login</a></li>
+                <button><a href="#">Sign up</a></button>
+                <select name="option">
+                    <option value="">EN</option>
+                    <option value="">SP</option>
+                    <option value="">FR</option>
+                    <option value="">ITA</option>
+                    <option value="">GE</option>
+                </select>
+                 <!-- the onclick event added here is for the menu to close once click on -->
+                 <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+                <!-- here, the onclick attribute is to open the menu once click on -->
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+           </section>
+        </div>
+        <div class="first-page">
+            <div class="texts">
+                <span>BEST DESTINATIONS AROUND THE WORLD</span>
+                <h3>Travel, enjoy and live a new and full life</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veritatis, esse. Harum ducimus, nemo non mollitia amet
+                </p>
+                <div class="findout">
+                    <button type="button">Find out more</button>
+                    <li><i class="fas fa-play-circle"></i> Play Demo</li>
+                </div>
+            </div>
+            <img src="image/traveller-pic.png" alt="" class="first-page-img">
+        </div>
+
+    </div>
+
+    <div class="our-services">
+        <div class="services">
+            <span>CATEGORY</span>
+            <h3>We Offer Best Services</h3>
+        </div>
+        <div class="service-pluses">
+            <img src="image/pluses.png" alt="">
+        </div>
+    </div>
+    <div class="first-card">
+        <div class="the-card">
+            <img src="image/umbrella-like-icon.png" alt="">
+            <h4>Calculated Weather</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Quia porro</p>
+        </div>
+
+        <div class="the-card" id="cardAlone">
+            <!-- <img src="image/underDIV.png" alt="" class="under"> -->
+
+            <!-- <div class="the-inner-card"> -->
+            <img src="image/plane-icon.png" alt="">
+            <h4>Best Flights</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Quia porro</p>
+            <!-- </div> -->
+        </div>
+
+        <div class="the-card">
+            <img src="image/microphone-icon.png" alt="">
+            <h4>Local Events</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Quia porro</p>
+        </div>
+        <div class="the-card">
+            <img src="image/setting-icon.png" alt="">
+            <h4>Customization</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Quia porro</p>
+        </div>
+    </div>
+
+
+
+
+    <!-- top Destinations -->
+    <div id="destinations">
+        <span>Top Selling</span>
+        <h3>Top Destinations</h3>
+    </div>
+    <div class="card-destinations">
+        <div class="img-card">
+            <img src="image/card01.png" alt="">
+            <div class="city">
+                <span>Castle, France</span>
+                <p>$5,42k</p>
+            </div>
+            <p><i class="fas fa-location-arrow"></i> 10 Days Trip</p>
+        </div>
+        <div class="img-card">
+            <img src="image/card2.jpg" alt="">
+            <div class="city">
+                <span>London, UK</span>
+                <p>$4,2k</p>
+            </div>
+            <p><i class="fas fa-location-arrow"></i> 12 Days Trip</p>
+        </div>
+        <div class="img-card">
+            <img src="image/card03.png" alt="">
+            <div class="city">
+                <span>Full Europe</span>
+                <p>$15k</p>
+            </div>
+            <p><i class="fas fa-location-arrow"></i> 28 Days Trip</p>
+        </div>
+    </div>
+
+    <div class="book-flight">
+        <div class="book-fast">
+            <div class="heading">
+                <span>Easy and Fast</span>
+                <h3>Book Your Next Trip In 3 Easy Steps</h3>
+            </div>
+            <div class="double-div">
+                <div id="expand"><i class="fas fa-expand"></i></div>
+                <div class="text-double">
+                    <h3>Choose Destination</h3>
+                    <p>Lorem ipsum dolor sit, ametconsectetur Non animi eveniet ullam, reprehenderit facilis dolorum sed
+                        molestias.</p>
+                </div>
+            </div>
+            <div class="double-div">
+                <div id="ticket"><i class="fas fa-ticket-alt"></i></div>
+                <div class="text-double">
+                    <h3>Make Payment</h3>
+                    <p>Lorem ipsum dolor sit, ametconsectetur Non animi eveniet ullam, reprehenderit facilis dolorum sed
+                        molestias.</p>
+                </div>
+            </div>
+            <div class="double-div">
+                <div id="luggage"><i class="fas fa-luggage-cart"></i></div>
+                <div class="text-double">
+                    <h3>Reach Airport on Selected Date</h3>
+                    <p>Lorem ipsum dolor sit, ametconsectetur Non animi eveniet ullam, reprehenderit facilis dolorum sed
+                        molestias.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="img-flight">
+            <img src="image/cruise-pic.jpg" alt="">
+            <div id="flight-cont">
+                <!-- <img src="image/cruise-pic.jpg" alt=""> -->
+                <div class="img-flight-first-slide">
+                    <!-- <img src="image/cruise-pic.jpg" alt=""> -->
+                    <h3>Trip To Greece</h3>
+                    <div class="inside-trip">
+                        <p>14-29 June| by Robbin J</p>
+                        <span class="fas fa-leaf"></span>
+                        <span class="fas fa-inbox"></span>
+                        <span class="fas fa-location-arrow"></span>
+                        <div>
+                            <p><i class="fas fa-list-alt"></i> 24 people going</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="the-second-slide-flight">
+                    <img src="image/travel-icon2.png" alt="">
+                    <div class="trip-to-rome">
+                        <span>Ongoing</span>
+                        <h3>Trip to Rome</h3>
+                        <p><span>40%</span> Completed</p>
+                        <input type="range">
+                        <i class="fas fa-heart"></i>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- testimonials -->
+
+    <div class="testimonials">
+        <div class="option1">
+            <p>TESTIMONIALS</p>
+            <h3>What People Say About Us.</h3>
+            <span>...</span>
+        </div>
+        <div class="option2">
+            <img src="image/User Menu Female_64px.png" alt="">
+            <div class="user-words">
+                <p>Lorem, ipsum dolor sit ametImpedit fugit temporibus natus placeat
+                    veritatis esse, voluptas voluptatum eveniet est odio. Iusto iure </p>
+                <h3>Mike Taylor</h3>
+                <span class="span0">Los Angeles, USA.</span>
+            </div>
+            <h4>Chris Thomas</h4>
+            <span class="span">CEO of BenJack Oil</span>
+        </div>
+        <div class="option3">
+            <i class="fas fa-angle-up"></i>
+            <i class="fas fa-angle-down"></i>
+        </div>
+    </div>
+    <div class="all-logos">
+        <img src="image/all-logos.png" alt="" contenteditable="true">
+    </div>
+
+    <!-- subscribe -->
+    <div class="subscribe">
+        <div class="sub-msg-icon">
+            <i class="fas fa-location-arrow"></i>
+        </div>
+        <div class="sub-subscribe">
+            <p>Subscribe to get information, latest news and other interesting offers about FF </p>
+            <div class="input-sub">
+                <div id="div"><i class="fas fa-envelope"></i>
+                    <input type="text" placeholder="Your email">
+                </div>
+                <button type="button">subscribe</button>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="footer-cont">
+            <div class="footer-segment">
+                <img src="image/logo-rename.png" alt="">
+                <p>Book your trip in minute, get full
+                    control for much longer.</p>
+            </div>
+            <div class="footer-segment">
+                <h3>Company</h3>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Mobile</a></li>
+            </div>
+            <div class="footer-segment">
+                <h3>Contact</h3>
+                <li><a href="#">Help/FAQ</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Affilates</a></li>
+            </div>
+        </div>
+        <div class="footer-cont2">
+            <div class="footer-segment">
+                <h3>More</h3>
+                <li><a href="#">Airlinefees</a></li>
+                <li><a href="#">Airline</a></li>
+                <li><a href="#">Low fare tips</a></li>
+            </div>
+            <div class="social">
+                <div class="font-social">
+                    <i class="fab fa-facebook"></i>
+                    <span class="fab fa-instagram"></span>
+                    <i class="fab fa-twitter"></i>
+                </div>
+
+                <div class="our-app">
+                    <h3>Discover our app</h3>
+                    <img src="image/Play Store.png" alt="">
+                    <img src="image/Rectangle 23.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <p class="reserved">All rights reserved@ff.0rg</p>
+    <script src="app.js"></script>
+</body>
+
+</html>
