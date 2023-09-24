@@ -564,8 +564,7 @@ footer .footer-cont2{
 @media (max-width: 680px) {
     .header-container{
         display: flex;
-        justify-content: space-around;
-        gap: 3rem;
+        justify-content: space-between;
         align-items: center;
     }
     .header-container section .fas{
@@ -674,11 +673,11 @@ footer .footer-cont2{
     align-items: center;
     width: auto;
     gap: 1.5rem;
-    padding: 5px;
+    /* padding: 5px; */
 }
-.book-flight .book-fast .heading {
+/* .book-flight .book-fast .heading {
     padding: 10px;
-}
+} */
 .book-flight .book-fast .heading h3{
     font-size: 20px;
     width: 200px;
