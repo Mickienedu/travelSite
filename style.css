@@ -564,7 +564,8 @@ footer .footer-cont2{
 @media (max-width: 680px) {
     .header-container{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        gap: 3rem;
         align-items: center;
     }
     .header-container section .fas{
