@@ -203,6 +203,7 @@ body{
     display: flex;
     justify-content: space-around;
     width: auto;
+    padding: 10px;
 }
 .book-flight .book-fast .heading h3{
     font-size: 30px;
@@ -374,8 +375,9 @@ body{
 }
 .input-sub #div input{
     /* width: 400px; */
-    height: 30px;
+    /* height: 30px; */
     border: none;
+    outline: none;
 }
 .input-sub button{
     background: orange;
@@ -702,7 +704,13 @@ footer .footer-cont2{
 .all-logos img{
     width: 50%;
 }
-
+/* input */
+.sub-subscribe .input-sub{
+    margin-top: 2rem;
+    display: flex;
+    gap: 0.4rem;
+    justify-content: center;
+}
   
 .sub-subscribe p{
     text-align: center;
@@ -710,11 +718,12 @@ footer .footer-cont2{
     width: auto;
 }
 .input-sub #div{
-    width: 200px;
+    width: 250px;
 }
 .input-sub button{
     width: 80px;
     border-radius: 6px;
+    font-size: 12px;
 }
 footer{
     display: grid;
