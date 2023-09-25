@@ -572,6 +572,11 @@ footer .footer-cont2{
         font-size: 30px;
         color: black;
     }
+    /* the logo styling */
+.header-container .logo-header img{
+    width: 80px;
+    height: 30px;
+}
     .header-container section ul{
         display: grid;
         align-items: center;
